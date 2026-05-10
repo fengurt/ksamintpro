@@ -12,6 +12,8 @@
   <a href="#section-lid">L.I.D.</a>
 </nav>
 
+<p class="overline">Public Session · 公开分享</p>
+
 # 主题活动 · Session {#event-top}
 
 <div class="event-hero" markdown="1">
