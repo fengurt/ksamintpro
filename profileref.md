@@ -10,14 +10,24 @@
   <a href="#section-projects">项目 Projects</a>
 </nav>
 
+<p class="overline">Biography · 主体概述</p>
+
+<div class="profile-hero" markdown="1">
+
+<div class="profile-hero-visual">
+<img class="hero-portrait" src="assets/guo-feng.png" alt="Guo Feng 郭峰 — portrait" />
+</div>
+
+<div class="profile-hero-main" markdown="1">
+
 # 主体概述 · Guo Feng 郭峰 {#profile-top}
 
 <span class="tag-en">Entrepreneur · Researcher · Educator / 创业者 · 研究者 · 分享者</span>
 
 版本号：**V04T2512**
 
-<div class="profile-photo">
-<img src="assets/guo-feng.png" alt="Guo Feng 郭峰 — portrait" width="280" />
+</div>
+
 </div>
 
 ## 主要任职 · Roles {#profile-body}

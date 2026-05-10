@@ -6,16 +6,19 @@ mkdir -p "$OUT/assets" "$OUT/export"
 cp "$ROOT/site.css" "$OUT/"
 cp "$ROOT/assets/guo-feng.png" "$OUT/assets/"
 MDFMT="markdown+markdown_attribute+header_attributes"
+HDR="$ROOT/includes/fonts-head.html"
 pandoc "$ROOT/profileref.md" \
   --from "$MDFMT" \
   --standalone \
   --css=site.css \
+  -H "$HDR" \
   --metadata title="郭峰 GUO Feng — Profile" \
   -o "$OUT/index.html"
 pandoc "$ROOT/event.md" \
   --from "$MDFMT" \
   --standalone \
   --css=site.css \
+  -H "$HDR" \
   --metadata title="郭峰 · OPC Global Session — 2026-06-13" \
   -o "$OUT/event.html"
 cp "$ROOT/profileref.md" "$ROOT/event.md" "$OUT/export/"
